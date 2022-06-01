@@ -4,17 +4,17 @@ public class Driver {
 
 	public static void main(String[] args) {
 		
-		Counter counter = new Counter();
+		Counter count = new Counter();
 		
-		System.out.println("Count:" + counter.getCount());
+		System.out.println("Count:" + count.getCount());
 		
 		counter.increment();
 		
-		System.out.println("Count:" + counter.getCount());
+		System.out.println("Count:" + count.getCount());
 		
 		counter.decrement();
 		
-		System.out.println("Count:" + counter.getCount());
+		System.out.println("Count:" + count.getCount());
 		
 	}
 
